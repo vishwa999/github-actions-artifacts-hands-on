@@ -33,7 +33,7 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: my_tutorial_file
-        path: ./artifacts/hello.txt
+        #path: ./artifacts/hello.txt\\
     
     - name: displya content of the text file
       run: cat ./artifacts/hello.txt 
