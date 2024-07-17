@@ -1,6 +1,6 @@
 name: Workflow Demo
 
-on: [push]
+on: push
 
 jobs:
   build:
@@ -37,3 +37,4 @@ jobs:
     
     - name: displya content of the text file
       run: cat ./artifacts/hello.txt 
+      #test
